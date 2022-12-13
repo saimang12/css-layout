@@ -1,7 +1,3 @@
-* {
-    /* outline: 1px solid tomato; */
-}
-
 body {
     overflow-x: hidden;
 }
@@ -14,13 +10,12 @@ body {
     position: sticky;
     top: 0;
     left: 0;
-    right: 0;
     z-index: 999;
 
     display: flex;
     justify-content: space-between;
 
-    padding: 0 100px;
+    padding: 0 200px;
 
     line-height: 100px;
     background: #fff;
@@ -30,16 +25,12 @@ body {
     font-size: 0;
 }
 
-
-
-
-
-
-
-
 #header .gnb>ul {
-    position: relative;
     display: flex;
+}
+
+#header .gnb>ul>li>a {
+    padding: 0 20px;
 }
 
 #header .gnb>ul>li {}
@@ -47,10 +38,6 @@ body {
 #header .gnb>ul>li a {
     display: block;
     text-align: center;
-}
-
-#header .gnb>ul>li>a {
-    padding: 0 20px;
 }
 
 #header .gnb>ul>li .menu_wrap {
@@ -66,74 +53,21 @@ body {
     display: none;
 }
 
-#header .gnb>ul>li:hover .menu_wrap {}
 
-#header .gnb>ul>li .submenu {}
 
-#header .gnb::before {
-    content: "";
-    position: absolute;
-    top: 100px;
-    left: 0;
-    right: 0;
-    height: 0;
-    background: #fff;
-    border-top: 1px solid #ddd;
+#header .gnb>ul>li:hover .menu_wrap {
+    display: block;
 }
 
-#header:hover .gnb::before {
-    height: 40px;
+#header .gnb>ul>li .submenu {
+    display: flex;
+    gap: 30px;
+    width: 1200px;
+    margin: 0 auto;
 }
 
-#header .gnb>ul>li .submenu li {
-    position: relative;
-    background: #fff;
-    border-top: 1px solid #ddd
-}
-
-#header .gnb>ul>li .submenu li~li {}
 
 
-
-#header .gnb:hover .gnb::before {}
-
-
-
-
-
-
-
-
-/* #header .gnb>ul>li .submenu::before {
-    content: "";
-    position: absolute;
-    top: -6px;
-    left: 50%;
-    width: 20px;
-    height: 20px;
-    background: #fff;
-    border: 3px solid #369;
-
-    transform: translate(-50%, 0) rotate(45deg);
-} */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* 메인메뉴를 만들때는 자식 선택자를 적극적으로 활용한다. */
 
 
 .mainVisual {
@@ -162,37 +96,37 @@ body {
     font-size: 15px;
 }
 
-.mainContents {
+.mainContent {
     padding: 100px 0;
 }
 
-.mainContents h2 {
+.mainContent h2 {
     font-size: 25px;
     font-weight: bold;
     margin: 0 0 10px 0;
     text-align: center;
 }
 
-.mainContents p {
+.mainContent p {
     font-size: 15px;
     text-align: center;
     margin: 0 0 30px 0;
 }
 
-.mainContents .inner {
-    width: 1200px;
-    margin: 0 auto;
+.mainContent .inner {
     display: flex;
     gap: 30px;
+    width: 1200px;
+    margin: 0 auto;
 }
 
-.mainContents .inner figure {
+.mainContent .inner figure {
     flex: 1;
 }
 
 #footer {
     background: #333;
     color: #fff;
-    padding: 30px 0 60px 0;
     text-align: center;
+    padding: 30px 0 60px 0;
 }

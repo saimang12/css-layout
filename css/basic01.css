@@ -17,10 +17,10 @@
 
 .basic01 .inner {
     display: flex;
-    width: 1200px;
-    /* size가 있는 box를 가운데 오게한다. margin양쪽을 auto로 늘여준다 */
-    margin: 0 auto;
     gap: 30px;
+    width: 1200px;
+    /* size가 있는 box를 가운데 오게한다. margin양쪽을 auto로 늘여준다. */
+    margin: 0 auto;
 }
 
 .basic01 .inner figure {
@@ -51,10 +51,10 @@
 
 .basic02 .inner {
     display: flex;
-    width: 1200px;
-    /* size가 있는 box를 가운데 오게한다. margin양쪽을 auto로 늘여준다 */
-    margin: 0 auto;
     gap: 30px;
+    width: 1200px;
+    /* size가 있는 box를 가운데 오게한다. margin양쪽을 auto로 늘여준다. */
+    margin: 0 auto;
 }
 
 .basic02 .inner figure {

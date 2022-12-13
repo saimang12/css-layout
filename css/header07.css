@@ -14,7 +14,6 @@ body {
     position: sticky;
     top: 0;
     left: 0;
-    right: 0;
     z-index: 999;
 
     display: flex;
@@ -36,12 +35,12 @@ body {
 }
 
 
-/* 메인메뉴를 만들때는 자식 선택자를 적극적으로 활용한다. */
+
 
 
 .mainVisual {
     position: relative;
-    height: 500px;
+    height: 800px;
     background: url(../img/main_visual01.jpg) no-repeat center center/cover;
 }
 
@@ -65,37 +64,37 @@ body {
     font-size: 15px;
 }
 
-.mainContents {
+.mainContent {
     padding: 100px 0;
 }
 
-.mainContents h2 {
+.mainContent h2 {
     font-size: 25px;
     font-weight: bold;
     margin: 0 0 10px 0;
     text-align: center;
 }
 
-.mainContents p {
+.mainContent p {
     font-size: 15px;
     text-align: center;
     margin: 0 0 30px 0;
 }
 
-.mainContents .inner {
-    width: 1200px;
-    margin: 0 auto;
+.mainContent .inner {
     display: flex;
     gap: 30px;
+    width: 1200px;
+    margin: 0 auto;
 }
 
-.mainContents .inner figure {
+.mainContent .inner figure {
     flex: 1;
 }
 
 #footer {
     background: #333;
     color: #fff;
-    padding: 30px 0 60px 0;
     text-align: center;
+    padding: 30px 0 60px 0;
 }

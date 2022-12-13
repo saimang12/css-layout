@@ -1,18 +1,19 @@
-.Wrap {
-    min-width: 1900px;
-}
-
 * {
     outline: 1px solid tomato;
 }
 
+.Wrap {
+    min-width: 1900px;
+}
+
 #header {
-    border-top: 3px solid tomato;
     line-height: 100px;
+    border-top: 3px solid tomato;
 }
 
 #header .inner {
     display: flex;
+
     justify-content: space-between;
     width: 1200px;
     margin: 0 auto;
@@ -26,6 +27,7 @@
 #header .gnb>ul a {
     display: block;
 }
+
 
 .mainVisual {
     position: relative;
@@ -53,37 +55,37 @@
     font-size: 15px;
 }
 
-.mainContents {
+.mainContent {
     padding: 100px 0;
 }
 
-.mainContents h2 {
+.mainContent h2 {
     font-size: 25px;
     font-weight: bold;
     margin: 0 0 10px 0;
     text-align: center;
 }
 
-.mainContents p {
+.mainContent p {
     font-size: 15px;
     text-align: center;
     margin: 0 0 30px 0;
 }
 
-.mainContents .inner {
-    width: 1200px;
-    margin: 0 auto;
+.mainContent .inner {
     display: flex;
     gap: 30px;
+    width: 1200px;
+    margin: 0 auto;
 }
 
-.mainContents .inner figure {
+.mainContent .inner figure {
     flex: 1;
 }
 
 #footer {
     background: #333;
     color: #fff;
-    padding: 30px 0 60px 0;
     text-align: center;
+    padding: 30px 0 60px 0;
 }
