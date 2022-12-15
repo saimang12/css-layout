@@ -1,6 +1,8 @@
 * {
-    outline: 1px solid tomato
+    outline: 1px solid tomato;
 }
+
+
 
 #header {
     display: flex;
@@ -28,23 +30,10 @@
     display: block;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 .mainVisual {
     position: relative;
-    background: url(../img/main_visual01.jpg) no-repeat center center/cover;
     height: 600px;
+    background: url(../img/main_visual01.jpg) no-repeat center center/cover;
 }
 
 .mainVisual .slogan {
@@ -58,9 +47,9 @@
     font-size: 40px;
     font-weight: 700;
     color: #fff;
-    margin: 0 0 10px 0;
+    margin: 0 0 5px 0;
     text-align: center;
-    text-shadow: 0, 0, 2px #000;
+    text-shadow: 0 0 2px #000;
 }
 
 .mainVisual .slogan p {
@@ -76,35 +65,14 @@
     top: 100px;
     left: 50%;
     transform: translate(-50%, 0);
-
     color: #fff;
     font-size: 100px;
-    text-shadow: 0, 0, 2px #000;
+    text-shadow: 0 0 2px #000;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .mainContent {
     padding: 100px 0;
 }
-
-/* .mainContent .scale {
-    transform: scale(2);
-} */
 
 .mainContent .tit {
     width: 1200px;
@@ -134,21 +102,13 @@
     margin: 0 auto;
 }
 
+/* .mainContent .scale {
+    transform: scale(2);
+    z-index: -1;
+    border: 20px solid tomato;
+} */
+
 .mainContent .inner figure {}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 #footer {
     background: #333;
