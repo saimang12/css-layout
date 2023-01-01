@@ -28,7 +28,6 @@
 #header .gnb>ul {
     display: flex;
     gap: 30px;
-    width: 1200px;
 }
 
 #header .gnb>ul a {
